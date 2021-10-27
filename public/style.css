@@ -1,0 +1,543 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-background {
+    background-color: #ef0107;
+}
+
+.navbar {
+    background-color: #ef0107;
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+
+.nav-link{
+    padding:10px 15px  !important;
+    color: white !important;
+}
+
+.nav-item:hover{
+    font-weight: 500;
+}
+
+/* IMAGE SLIDER */
+.carousel-item img{
+    height:85vh;
+    width: 100%;
+    -webkit-filter: brightness(0.7);
+    filter: brightness(0.7);
+    object-fit: cover;
+}
+
+.carousel-caption{
+    top: 30%;
+    bottom: auto;
+}
+
+.carousel-caption h1{
+    font-size: 4.5rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.view-more{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* NEXT MATCH */
+.next-match-background{
+    background-color:white;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.next-match{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.next-match-countdown{
+    width: 50%;
+    background-color: #db0007;
+    padding:20px 40px;
+    border-radius: 20px;
+    margin:0px 10px;
+}
+
+.next-match-countdown h1{
+    font-size: 2.8rem;
+    color: white;
+    margin: 0;
+}
+
+.next-match-countdown .countdown-num span{
+    font-size: 3.8rem;
+    text-align: left;
+    width: 150px;
+    color: white;
+    margin: 20px 0;;
+}
+
+.next-match-countdown .countdown-text span{
+    font-size: 1.2rem;
+    text-align: left;
+    width: 150px;
+    color: white;
+}
+
+.next-match-content{
+    padding:20px;
+    margin:0px 10px;
+    width: 50%;
+    text-align: center;
+    background-color:#151d2d;
+    transition: 0.3s;
+    color: white;
+    border-radius: 20px;   
+}
+
+.next-match-competition{
+    font-size: 1.2rem;
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.next-match-team img{
+    height: 120px;
+}
+
+.next-match-team{
+    width: 35%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.next-match-time{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.day{
+    margin: 20px 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.date{
+    margin: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.time{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+/* LEAGUE TABLE */
+.league-table-background{
+    background-color: white;
+    padding: 30px 0 100px 0;
+}
+
+.league-table-content h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3d195b;
+}
+
+.league-table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.league-table td{
+    width: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;   
+}
+
+.league-table tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.league-table thead{
+    background-color: #3d195b;
+    color: white;
+}
+
+.league-table thead td:nth-child(2){
+    width: 300px;
+    text-align: left;
+}
+
+#standings td:nth-child(2){
+    width: 30px;
+}
+
+#standings td:nth-child(2) img{   
+    height: 20px;
+}
+
+#standings td:nth-child(3){
+    text-align: left;
+    width: 270px;;
+    padding-left: 0px;
+}
+
+#standings td:nth-last-child(1){
+    font-weight: bold;
+}
+
+/* VIDEO */
+.video-background{
+    background-color: #db0007;
+    padding: 100px 0;
+}
+
+.video-content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-title{
+    font-size: 5rem;
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.video{
+    width: 600px;
+    height: 338px;
+    display: inline-block;  
+    border: none;
+}
+
+/* SOCIAL MEDIA */
+.social-background{
+    padding: 100px 0;
+}
+
+.social-content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    border-collapse: collapse;
+}
+
+.social i{
+    font-size: 6rem;
+}
+
+.fa-youtube{
+    color: #ff0000;
+}
+
+.fa-twitter{
+    color: #00acee;
+}
+
+.fa-facebook-square{
+    color: #1877f2;
+}
+
+.fa-instagram{
+    color: #E1306C;
+}
+
+.social td{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.social-title{
+    margin: 0;
+    font-size: 5rem;
+    color: #db0007;
+    text-align: left;
+    padding: 0 30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #202020;
+}
+
+footer h3{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'STIX Two Math', serif;
+    font-weight: 300;  
+    word-spacing: 1.5rem;
+    font-size: 1.2rem;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: 300;  
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+
+/*----------------RESPONSIVE CSS----------------*/
+@media (max-width: 1024px) {
+
+    .next-match-background{
+        padding: 30px 0px;
+    }
+    
+    .next-match{
+        display: block;
+    }
+    
+    .next-match-countdown{
+        width: 100%;
+        margin:0px;
+        margin-bottom: 20px;
+    }
+    
+    .next-match-content{
+        margin:0px;
+        width: 100%;
+    }
+
+    .league-table-content{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .video-content{
+        margin: 0 auto;
+        display: block;
+        padding: 0 10px;
+    }
+    
+    .video-title{
+        color: white;
+        text-align: center;
+        padding-right: 0px;
+        margin: 0 0 20px 0;
+    }
+    
+    .video{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .social-content{
+        display: block;
+    }
+    
+    .social{
+        margin: 0 auto;
+    }
+    
+    .social td{
+        padding: 10px;
+    }
+    
+    .social-title{
+        margin:0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px) {
+    .carousel-item img{
+        height:70vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .carousel-caption{
+        top: 15%;
+        bottom: auto;
+    }
+
+    .next-match-background{
+        padding: 30px 10px;
+    }
+
+    .next-match{
+        width: 100%;
+    }
+
+    .next-match-team{
+        font-size: 1.2rem;
+    }
+
+    .league-table-background{
+        padding: 30px 0 40px 0;
+    }
+
+    .league-table-content h1{
+        font-size: 2.5rem;
+    }
+
+    .league-table td{
+        width: 50px;
+        padding: 10px;
+        font-size: 0.7rem;
+        text-align: center;   
+    }
+
+    .video-background{
+        padding: 40px 0;
+    }
+
+    .video-title{
+        color: white;
+        text-align: center;
+        padding-right: 0px;
+        margin: 0 0 20px 0;
+        font-size: 4rem;
+    }
+    
+    .video{
+        width: 400px;
+        height: 225px;
+    }
+
+    .social-title{
+        font-size: 4rem;
+    }
+
+    .social-background{
+        padding: 40px 0;  
+    }
+}
+
+@media (max-width:480px){
+    .carousel-item img{
+        height:70vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .carousel-caption{
+        top: 15%;
+        bottom: auto;
+    }
+    
+    .carousel-caption h1{
+        font-size: 3rem;
+    }
+
+    .view-more{
+        font-size: 1.2rem;
+    }
+
+    .next-match-team img{
+        height: 80px;
+    }
+
+    .next-match-team{
+        font-size: 1rem;
+    }
+    
+    .next-match-time{
+        width: 30%;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+    .day{
+        font-size: 1.1rem;
+    }
+    
+    .date{
+        font-size: 1.2rem;
+    }
+    
+    .time{
+        font-size: 1.2rem;
+    }
+
+    .next-match-countdown h1{
+        font-size: 2rem;
+    }
+
+    .next-match-countdown .countdown-num span{
+        font-size: 3rem;
+    }
+
+    .next-match-countdown .countdown-text span{
+        font-size: 1rem;
+    }
+
+    .league-table thead td:nth-child(7),
+    .league-table thead td:nth-child(8),
+    .league-table thead td:nth-child(9){
+        display: none;
+    }
+    
+    #standings td:nth-child(8),
+    #standings td:nth-child(9),
+    #standings td:nth-child(10){
+        display: none;
+    }
+    
+    .video-title{
+        font-size: 3.5rem;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .social-title{
+        font-size: 3.5rem;
+    }
+
+    footer h3{
+        font-size: 1rem;
+        word-spacing: 1rem;
+    }
+
+    footer p{
+        font-size: 0.7rem;
+    }
+
+}
