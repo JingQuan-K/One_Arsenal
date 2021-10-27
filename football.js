@@ -11,8 +11,8 @@ const settings = {
 
 router.get("/table", async (req, res) => {
     try{
-        const response = await fetch(API_URL_PL_TABLE, settings);
-        const data = await response.json();
+        const response = await fetch(API_URL_PL_TABLE, settings)
+        const data = await response.json()
         const table = data.standings[0].table
         res.json(table)
     }catch(err){
@@ -22,13 +22,13 @@ router.get("/table", async (req, res) => {
 
 router.get("/nextmatch", async (req, res) => {
     try{
-        const response = await fetch(API_NEXT_MATCH, settings);
-        const data = await response.json();
-        const match = data.matches[0];
+        const response = await fetch(API_NEXT_MATCH, settings)
+        const data = await response.json()
+        const match = data.matches[0]
         res.json(match)
     }catch(err){
         res.json(err)
     }
 });
 
-module.exports = router;
+module.exports = router

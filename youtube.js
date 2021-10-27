@@ -7,8 +7,8 @@ const searchVideoUrl=`https://www.googleapis.com/youtube/v3/search?part=snippet&
 
 router.get("/video", async (req, res) => {
     try{
-        const response = await fetch(searchVideoUrl);
-        const data = await response.json();
+        const response = await fetch(searchVideoUrl)
+        const data = await response.json()
         const videoId = data.items[0].id.videoId
         res.json(videoId)
     }catch(err){
@@ -16,4 +16,4 @@ router.get("/video", async (req, res) => {
     }
 });
 
-module.exports = router;
+module.exports = router
