@@ -3,8 +3,6 @@ async function setNextMatch(id){
     const response = await fetch(url)
     const match = await response.json()
     
-    console.log(match)
-
     const comp = match.competition.name;
     const home = match.homeTeam;
     const away = match.awayTeam;
@@ -62,7 +60,6 @@ async function getTable(){
     const url ="/football/table"
     const response = await fetch(url)
     const table = await response.json()
-    console.log(table)
 
     table.forEach(club => {
         var bgColor = "#FFFFFF"
