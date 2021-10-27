@@ -52,7 +52,7 @@ async function setVideo(){
     const response = await fetch(url)
     const video = await response.json()
 
-    document.querySelector(".video").src = `http://www.youtube.com/embed/${video}`;
+    document.querySelector(".video").src = `https://www.youtube.com/embed/${video}`;
 
 }
 
