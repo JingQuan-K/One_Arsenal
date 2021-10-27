@@ -84,7 +84,7 @@ getTable().catch(error => {
     console.error(error);
 })
 
-// setVideo().catch(error => {
-//     console.log('There is an error!');
-//     console.error(error);
-// })
+setVideo().catch(error => {
+    console.log('There is an error!');
+    console.error(error);
+})
