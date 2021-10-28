@@ -5,7 +5,7 @@ A website about Arsenal Football Club. Implemented proxy REST API with Node.js i
 - Countdown timer to the next Arsenal match
 - Displays details of the next Arsenal match
 - Displays the latest Premier League Table Standings
-- Displays the most recent video from the Arsenal youtube channel.<br>
+- Displays the most recent video from the Arsenal youtube channel<br>
 
 ***More to come in the future!***
 
